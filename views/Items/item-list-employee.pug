@@ -1,0 +1,25 @@
+extends ../layout-employee
+ 
+block content 
+
+    .row 
+        .col-sm-8
+             h1(class="heading") Employees List
+
+    table.table.table-hover
+        thead
+            tr
+                th Employees Name
+                th Employees ID
+                th Employees Contact
+                th Employees Salary
+                
+        tbody
+            each list in lists 
+                tr
+                    td=list.name
+                    td=list.cid
+                    td=list.cdur
+                    td=list.cfee
+                   
+    

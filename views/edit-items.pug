@@ -1,0 +1,20 @@
+extends layout
+
+block content 
+    h1(class="add_Edit-heading") Edit Employees Data
+    form(action="/itemsRoutes/update/"+item._id, method="post") 
+        .form-group 
+            label(for="name") Employee Name
+            input(type="text", class="form-control", name="name", value=item.name) 
+        .form-group 
+            label(for="cid") Employee ID
+            input(type="text", class="form-control", name="cid", value=item.cid) 
+        .form-group 
+            label(for="cdur") Employee Contact
+            input(type="text", class="form-control", name="cdur", value=item.cdur) 
+        .form-group 
+            label(for="cfee") Employee Salary
+            input(type="text", class="form-control", name="cfee", value=item.cfee) 
+        
+        input(type="submit", class="btn btn-success btn-submit"  )  
+

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
+.bg-nav {
+  background-color: brown;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.btn-signout{
+  background-color: brown;
+  color: white;
+  border-color: white;
+}
+.btn-signout:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.heading {
+  /* font-family: 'courgette', cursive; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}  
+.table, tr, th, td{
+  border: 3px solid brown;
+}
+.table {
+  margin-bottom: 25px;
+}
+
+.add_Edit-heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.btn-info {
+    margin-top: 20px; 
+}
+.add_employee {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 30px;
+    border-color: black;
+}
+.add_employee:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+.fa-plus-circle {
+  margin-top: 2px;
+  margin-right: 5px;
+  font-size: larger;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.edit {
+  margin-left: 20px;
+  
+}
+
+.delete_edit {
+  margin-top: 5px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.delete_edit:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+/* .btn-submit:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+} */
+.pagination {
+  justify-content: center;
+  margin-top: 30px; 
+}
+
+.page-link {
+  background-color: brown;
+  color: white;
+  border-radius: 20px;
+  border-color: black;
+}
+.page-link:hover {
+  background-color: white;
+  color:black;
+  border-color: black;
+}
+.container_fluid {
+  border-style: solid;
+  margin-top: 30px;
+}
+
+ /* Add/Edit Employee */ 
+
+ .btn-submit {
+   margin-bottom: 20px;
+   display: inline-block;
+ }
+.btn-submit:hover {
+   background-color: white;
+   color: black;
+ }
+ .form-group, label {
+   font-size: 16px;
+   /* font-weight: 100; */
+ }
+ .logout {
+   float: right;
+   margin-left: 20px;
+ }
+
+ /* -------------- Home Page ---------- */ 
+
+ .panel {
+   border-color: orange;
+  }
+ .panel-items{
+   border-style: solid;
+   border-color: brown;
+   background-color: white;
+   margin: 20px;
+   margin-bottom: 40px; 
+ }
+ .link {
+   color: black;
+ }
+ .btn-sign-in{
+   margin-left: 21px;
+ }
+ .link:hover {
+  color: black;
+  font-size: 15px;
+}
+.login {
+  display: inline;
+  margin-left: 44.5%;
+}

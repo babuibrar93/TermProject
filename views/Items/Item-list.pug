@@ -1,0 +1,35 @@
+extends ../layout 
+ 
+block content 
+
+    .row 
+        .col-sm-8
+             h1(class="heading") Manage Employees
+        .col-sm-4
+                a(href="/itemsRoutes/add", class=" btn float-right add_employee") <i class="fa fa-plus-circle"></i> Add New Employee
+
+    table.table.table-hover
+        thead
+            tr
+                th Employees Name
+                th Employees ID
+                th Employees Contact
+                th Employees Salary
+                
+                th Action
+                
+            
+            
+        tbody
+            each list in lists 
+                tr
+                    td=list.name
+                    td=list.cid
+                    td=list.cdur
+                    td=list.cfee
+                    td 
+                        a(href="/itemsRoutes/delete/"+list._id, class="btn delete_edit btn-success btn-sm") <i class="fa fa-trash" aria-hidden="true"></i> Delete 
+                        
+                        a(href="/itemsRoutes/edit/"+list._id, class="btn delete_edit btn-success btn-sm edit") <i class="fa fa-pencil" aria-hidden="true"></i> Edit 
+        
+    

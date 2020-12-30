@@ -1,0 +1,19 @@
+extends layout
+
+block content 
+    h1(class="add_Edit-heading") Add New Employees
+    form(action="", method="post" id="form") 
+        .form-group 
+            label(for="name") Employee Name
+            input(type="text", class="form-control" id="C_name" name="name") 
+        .form-group 
+            label(for="cid") Employee ID
+            input(type="text", class="form-control" id="C_id"  name="cid") 
+        .form-group 
+            label(for="cdur") Employee Contact
+            input(type="number", class="form-control" id="C_dur"  name="cdur") 
+        .form-group 
+            label(for="cfee") Employee Salary
+            input(type="number", class="form-control" id="C_fee"  name="cfee") 
+        
+        input(type="submit", class="btn btn-success btn-submit")    
